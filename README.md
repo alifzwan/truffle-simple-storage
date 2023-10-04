@@ -1,27 +1,29 @@
-# Truffle
+<img src="https://trufflesuite.com/img/truffle-logo-dark.svg" width="200">
+
+[![npm](https://img.shields.io/npm/v/truffle.svg)](https://www.npmjs.com/package/truffle)
+[![npm](https://img.shields.io/npm/dm/truffle.svg)](https://www.npmjs.com/package/truffle)
+[![GitHub Discussions](https://img.shields.io/static/v1?label=Join&message=Discussions&color=3fe0c5)](https://github.com/trufflesuite/truffle/discussions)
+[![Coverage Status](https://coveralls.io/repos/github/trufflesuite/truffle/badge.svg)](https://coveralls.io/github/trufflesuite/truffle)
+[![gitpoap badge](https://public-api.gitpoap.io/v1/repo/trufflesuite/truffle/badge)](https://www.gitpoap.io/gh/trufflesuite/truffle)
+
+---
 
 This repository will cover evrything about truffle including:
 
-- What is Truffle ["what-is-truffle]
-
-  - Why Truffle
-  - Pre-requisite
-  - Truffle Installation
-    - Folder Description
-
-- Truffle Operation
-
-  - Compile
-  - Deploy
-    - Migrations Scripts
-
-- Ganache
-
-  - What is Ganache
-
-- Ethereum Blockchain
-
-- Dapp Deployment
+- [What is Truffle](#what-is-truffle)
+  - [Why Truffle](#why-truffle)
+  - [Pre-requisite](#pre-requisite)
+  - [Truffle Installation](#truffle-installation)
+  - [Folder Description](#folder-description)
+- [Truffle Operation](#truffle-operation)
+  - [Compile](#compile)
+  - [Deploy](#deploy)
+  - [Migrations Scripts](#migrations-scripts)
+- [Ganache](#ganache)
+- [Blockchain Deployment](#blockchain-deployment)
+- [Alchemy](#alchemy)
+- [.env](#.env)
+- [Ganache VS Testnet](#ganache-vs-testnet)
 
 ## What is Truffle
 
@@ -137,14 +139,14 @@ Ganache is local blockchain simulator with the help of which you can run a local
 
   - So how to connect Your Computer to Ethereum Network?
 
-  - There's three approaches:
+  - There's two approaches:
 
     - Geth - transform your system to NODE (NOT RECOMMENDED)
 
     - Alchemy - provide bridge between your system to ethereum network (End-Point)
 
   - We gonna choose **Alchemy**
-    - ALchemy will give us provider link (sepolia) and Project ID (API Key)
+    - Alchemy will give us provider link (sepolia) and Project ID (API Key)
 
 ## .env
 
